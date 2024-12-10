@@ -817,6 +817,11 @@ probseg:
     A probabilistic segmentation.
 
     This suffix may only be used in derivative datasets.
+prov:
+  value: prov
+  display_name: Provenance recording
+  description: |
+    A file that contains provenance records.
 sbref:
   value: sbref
   display_name: Single-band reference image

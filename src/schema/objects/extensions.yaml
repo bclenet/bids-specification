@@ -130,6 +130,11 @@ json:
     These sidecar files follow the inheritance principle.
 
     There are also a few special cases of JSON files being first-order data files, such as `genetic_info.json`.
+jsonld:
+  value: .jsonld
+  display_name: JavaScript Object Notation for Linked Data
+  description: |
+    A JSON-LD file. JSON-LD is a method of encoding linked data using JSON.
 kdf:
   value: .kdf
   display_name: KRISS KDF

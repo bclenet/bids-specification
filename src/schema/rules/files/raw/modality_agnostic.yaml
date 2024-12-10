@@ -1,0 +1,9 @@
+---
+provenance:
+  level: optional
+  suffixes:
+    - prov
+  extensions:
+    - .jsonld
+  entities:
+    subject: required
