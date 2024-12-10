@@ -22,6 +22,7 @@ raw:
       - code
       - derivatives
       - phenotype
+      - provenance
       - sourcedata
       - stimuli
       - subject
@@ -37,6 +38,10 @@ raw:
     name: phenotype
     level: optional
     opaque: false
+  provenance:
+    name: provenance
+    level: optional
+    opaque: true
   sourcedata:
     name: sourcedata
     level: optional
@@ -70,6 +75,7 @@ derivative:
       - code
       - derivatives
       - phenotype
+      - provenance
       - sourcedata
       - stimuli
       - subject
@@ -85,6 +91,10 @@ derivative:
     name: phenotype
     level: optional
     opaque: false
+  provenance:
+    name: provenance
+    level: optional
+    opaque: true
   sourcedata:
     name: sourcedata
     level: optional

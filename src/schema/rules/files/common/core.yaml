@@ -31,6 +31,9 @@ code:
 derivatives:
   level: optional
   path: derivatives
+provenance:
+  level: optional
+  path: provenance
 sourcedata:
   level: optional
   path: sourcedata

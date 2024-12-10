@@ -126,3 +126,11 @@ stimuli:
     A directory to store any stimulus files used during an experiment.
     See the [relevant section](SPEC_ROOT/modality-specific-files/task-events.md#stimuli-directory)
     for more information.
+provenance:
+  display_name: Provenance
+  file_type: directory
+  description: |
+    A directory where to store any provenance records.
+    (for example the one resulting from the generation of derivatives data).
+    See the [Provenance section](SPEC_ROOT/modality-agnostic-files.md#provenance)
+    for more information.
