@@ -109,6 +109,11 @@ derivatives:
     Derivative data (for example preprocessed files).
     See the [relevant section](SPEC_ROOT/common-principles.md#source-vs-raw-vs-derived-data)
     for more information.
+prov:
+  display_name: Provenance records
+  file_type: directory
+  description: |
+    A directory in which to store provenance records.
 phenotype:
   display_name: Phenotype
   file_type: directory
