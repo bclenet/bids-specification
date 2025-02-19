@@ -22,6 +22,7 @@ raw:
       - code
       - derivatives
       - phenotype
+      - prov
       - sourcedata
       - stimuli
       - subject
@@ -31,6 +32,10 @@ raw:
     opaque: true
   derivatives:
     name: derivatives
+    level: optional
+    opaque: true
+  prov:
+    name: prov
     level: optional
     opaque: true
   phenotype:
@@ -69,6 +74,7 @@ derivative:
     subdirs:
       - code
       - derivatives
+      - prov
       - phenotype
       - sourcedata
       - stimuli
@@ -79,6 +85,10 @@ derivative:
     opaque: true
   derivatives:
     name: derivatives
+    level: optional
+    opaque: true
+  prov:
+    name: prov
     level: optional
     opaque: true
   phenotype:
