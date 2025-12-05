@@ -47,7 +47,7 @@ def remove_admonitions(
                     is_admonition = False
 
                 if is_admonition:
-                    line = line.lstrip(indent)
+                    line = line.removeprefix(indent)
 
                 f.write(line)
 

@@ -11,6 +11,14 @@ For example the following admonition should be removed by `pdf_build_src/remove_
     Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa,
     nec semper lorem quam in massa.
 
+    ```JSON
+    {
+        "list": [
+            "first_element"
+        ]
+    }
+    ```
+
 The `expected` directory should contain the documents
 as they should look like after processing.
 

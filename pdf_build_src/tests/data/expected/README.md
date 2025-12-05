@@ -9,6 +9,14 @@ Nulla et euismod nulla.
 Curabitur feugiat, tortor non consequat finibus, justo purus auctor massa,
 nec semper lorem quam in massa.
 
+```JSON
+{
+    "list": [
+        "first_element"
+    ]
+}
+```
+
 The `expected` directory should contain the documents
 as they should look like after processing.
 
