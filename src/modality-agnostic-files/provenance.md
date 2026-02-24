@@ -86,7 +86,7 @@ and a guide for using macros can be found at
 -->
 {{ MACROS___make_metadata_table(
    {
-      "GeneratedBy__Id__Dataset": "RECOMMENDED for BIDS raw datasets and BIDS study datasets,\
+      "GeneratedBy__Id__Prov": "RECOMMENDED for BIDS raw datasets and BIDS study datasets,\
       REQUIRED for BIDS derivative datasets"
    }
 ) }}
